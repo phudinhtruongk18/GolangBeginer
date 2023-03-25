@@ -1,0 +1,7 @@
+https://golang.google.cn/doc/tutorial/compile-install
+
+go env -w GOBIN=C:\path\to\your\bin
+go install
+
+set PATH=%PATH%;C:\path\to\your\install\directory
+export PATH=$PATH:/path/to/your/install/directory
